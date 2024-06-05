@@ -1,0 +1,403 @@
+:root {
+
+    /* Primary */
+
+    --pink: hsl(322, 100%, 66%);
+    --light-pink: hsl(321, 100%, 78%);
+    --light-red: hsl(0, 100%, 63%);
+
+    /* Neutral */
+
+    --very-dark-cyan: hsl(192, 100%, 9%);
+    --very-pale-blue: hsl(207, 100%, 98%);
+
+    --off-white: hsl(0, 0%, 95%);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--off-white);
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    
+}
+
+main {
+    width: 100%;
+    max-width: 60rem;
+    background-color: white;
+}
+
+header {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 1.6rem;
+}
+
+h2, h3, h4 {
+    font-size: 1.4rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+.logo-container {
+    height: 20px;
+    width: auto;
+}
+
+.logo-container img {
+    height: 100%;
+    width: auto;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+nav button {
+    padding: 5px 20px;
+    outline: 1px solid var(--light-pink);
+    border-radius: 20px;
+    color: var(--light-pink);
+}
+
+.top-container {
+    margin-top: 70px;
+    padding: 20px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.heading-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.pink-button {
+    background-color: var(--pink);
+    color: white;
+    border-radius: 20px;
+    padding: 10px 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.img-mockups-container {
+    width: 100%;
+    height: auto;
+}
+
+.img-mockups-container img {
+    width: 100%;
+    height: auto;
+}
+
+.numbers-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.numbers-icon-container {
+    height: auto;
+    width: 40px;
+}
+
+.numbers-icon-container img {
+    height: auto;
+    width: 100%;
+}
+
+.numbers-container div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.number {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.number-subtitle {
+    color: var(--very-dark-cyan);
+    text-align: center;
+}
+
+section {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-inner-container img {
+    width: 100%;
+}
+
+.section-inner-container {
+    padding: 20px 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.background-light-blue {
+    background-color: var(--very-pale-blue);
+}
+
+.section-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ready-to-build-container {
+    padding: 70px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+footer img {
+    width: 100%;
+}
+
+.footer-contents {
+    padding: 40px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--very-dark-cyan);
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 15rem;
+    gap: 15px;
+}
+
+.links-container p {
+    color: white;
+}
+
+.links-container img {
+    height: 15px;
+    width: auto;
+
+}
+
+.links-container span {
+    color: white;
+    margin-left: 10px;
+}
+
+.logo-links-container {
+    height: 30px;
+    width: auto;
+}
+
+.logo-links-container svg {
+    height: 100%;
+    width: auto;
+    color: white;
+}
+
+.socials {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.socials svg {
+
+    height: 30px;
+    width: auto;
+    color: white;
+}
+
+
+.newsletter-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+}
+
+.newsletter-container input {
+    padding: 5px;
+    width: 12rem;
+}
+
+.newsletter-container button {
+    background-color: var(--pink);
+    border-radius: 5px;
+    padding: 7px 25px;
+    color: white;
+    margin-left: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.newsletter-heading {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.newsletter-content {
+    max-width: 15rem;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.subscribed-message {
+    color: white;
+    margin-top: 5px;
+    min-height: 30px;
+}
+
+.subscribed-message.error {
+    color: var(--light-red);
+}
+
+.hidden {
+    display: none;
+}
+
+@media (hover:hover) {
+    .pink-button:hover {
+        background-color: var(--light-pink);
+    }
+    
+    .newsletter-container button:hover {
+        background-color: var(--light-pink);
+    }
+
+    .twitter-icon:hover {
+        color: #1DA1F2;
+    }
+}
+
+@media (hover:none) {
+    .pink-button:active {
+        background-color: var(--light-pink);
+    }
+    
+    .newsletter-container button:active {
+        background-color: var(--light-pink);
+    }
+    
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .top-container {
+        padding: 40px;
+    }
+
+    .section-inner-container {
+        flex-direction: column;
+    }
+
+    .ready-to-build-container h5 {
+        text-align: center;
+    }
+
+    .numbers-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+    }
+
+    .footer-contents {
+        flex-direction: column;
+        gap: 70px;
+        padding: 40px;
+    }
+
+    .links-container {
+        order: 2;
+        max-width: none;
+    }
+
+    .newsletter-container {
+        order: 1;
+    }
+
+    .newsletter-content {
+        max-width: none;
+    }
+
+    .input-group {
+        flex-direction: column;
+        align-items: end;
+        gap: 10px;
+    }
+
+    .input-group input {
+        width: 100%;
+    }
+
+    .input-group button {
+        margin-left: 0;
+        max-width: 12rem;
+    }
+}
+
+
+
+
+
+
