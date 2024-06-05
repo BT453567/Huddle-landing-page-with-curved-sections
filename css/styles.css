@@ -352,7 +352,9 @@ footer img {
     }
 
     .ready-to-build-container h5 {
+        padding: 70px 40px;
         text-align: center;
+        
     }
 
     .numbers-container {
